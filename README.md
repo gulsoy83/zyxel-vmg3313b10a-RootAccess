@@ -19,8 +19,12 @@ Directly disabling it is not possible so modify some parameters: tr69 username, 
 
 ---
 You can check these links to try appylying same logic to your zyxel isp router to get root account.
-The process is simple, obtain .conf file, decrypt it, enable root account by editing decrypted file, encrypt it again and restore it to the modem.
 
 1. https://abrazalaweb.net/2018/11/descomprimir-archivos-de-configuracion-lzw/
 2. https://hexed.it/
 3. https://github.com/joeatwork/python-lzw
+
+The process is as follows; <br />
+Obtain .conf file, decrypt obtained lzw file, enable root account by editing decrypted txt file, edit the necessary values with the hex editor in a way that does not disrupt the structure of the file, calculate the crc of the file, encrypt it, and restore it to the modem.
+
+
