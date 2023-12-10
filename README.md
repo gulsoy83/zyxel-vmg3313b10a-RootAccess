@@ -15,7 +15,7 @@ Connect to the router via telnet to disable TR-69. <br />
 echo $(ls /bin) <br />
 echo $(tr69cli) <br />
 echo $(tr69cli display) <br />
-Directly disabling is not possible so modify parameters: password, port etc. to negate your ISP's access your device.
+Directly disabling it is not possible so modify some parameters: tr69 username, password, port etc. to negate your ISP's access your device.
 
 ---
 You can check these links to try appylying same logic to your zyxel isp router to get root account.
