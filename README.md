@@ -19,7 +19,8 @@ Directly disabling is not possible so modify parameters: password, port etc. to 
 
 ---
 You can check these links to try appylying same logic to your zyxel isp router to get root account.
+The process is simple, obtain .conf file, decrypt it, enable root account by editing decrypted file, encrypt it again and restore it to the modem.
 
-https://abrazalaweb.net/2018/11/descomprimir-archivos-de-configuracion-lzw/
-https://hexed.it/
-https://github.com/joeatwork/python-lzw
+1. https://abrazalaweb.net/2018/11/descomprimir-archivos-de-configuracion-lzw/
+2. https://hexed.it/
+3. https://github.com/joeatwork/python-lzw
