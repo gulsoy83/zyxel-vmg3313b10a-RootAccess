@@ -5,16 +5,16 @@ Nevertheless, you can get root account enabled by restoring this ttvmg3313root.c
 ![c8c13b44af3dea019dd48cb45ff3a9ed6d98e729](https://github.com/gulsoy83/zyxel-vmg3313b10a-RootAccess/assets/46426033/cf207f08-1d44-48d3-8d27-917d834e0615)
 
 1. Reset your router to default settings from 192.186.1.1 page. (Default user/password is admin/turktelekom.)
-2. After this,  go to 192.168.1.1, you can login by these credentials:
-  root/enzovmg3313
-  admin/ttvmg3313
-3. You can connect to Wi-Fi with this credentials:
-   Wi-Fi Name: VMG3313 / Password: 20222022
+2. After this,  go to 192.168.1.1, you can login by these credentials: <br />
+  root/enzovmg3313 <br />
+  admin/ttvmg3313 <br />
+3. You can connect to Wi-Fi with this credentials: <br />
+   Wi-Fi Name: VMG3313 / Password: 20222022 <br />
 
-Connect to the router via telnet to disable TR-69.
-echo $(ls /bin)
-echo $(tr69cli)
-echo $(tr69cli display) 
+Connect to the router via telnet to disable TR-69. <br />
+echo $(ls /bin) <br />
+echo $(tr69cli) <br />
+echo $(tr69cli display) <br />
 Directly disabling is not possible so modify parameters: password, port etc. to negate your ISP's access your device.
 
 ---
